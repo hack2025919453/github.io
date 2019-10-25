@@ -143,8 +143,30 @@
           
         
         <div class="index-excerpt" >
-          <div class="index-text mb-1">欢迎进入我的博客
+          <div class="index-text mb-1">hexo框架通过GitHub搭建博客
 第一步
+
+安装 Hexo 相当简单，只需要先安装下列应用程序即可：
+
+Node.js (Node.js 版本需不低于 8.6，建议使用 Node.js 10.0 及以上版本)
+Git
+
+如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。
+1$ npm install -g hexo-cli
+
+
+
+第二步
+
+创建一个github账号—创建一个项目
+第三步
+
+配置ssh
+为什么要配置这个呢？因为你提交代码肯定要拥有你的github权限才可以，但是直接使用用户名和密码太不安全了，所以我们使用ssh key来解决本地和服务器的连接问题。
+这里就不查看本地ssh密钥了 自己注册的邮箱地址
+1ssh-keygen -t rsa -C &quot;邮件地址&quot;
+
+鼠标右击–git bash here-输入这个命令  就会发现出来了ssh的公钥私钥，这样就可以想象ssh配置了
 </div>
         </div>
       </a>
